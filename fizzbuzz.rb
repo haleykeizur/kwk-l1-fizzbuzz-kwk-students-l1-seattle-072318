@@ -8,6 +8,5 @@ else x/3
   puts "FizzBuzz"
 else 
   puts "nil"
-  
 end
 
