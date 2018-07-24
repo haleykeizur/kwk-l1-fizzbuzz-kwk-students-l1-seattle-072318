@@ -1,12 +1,12 @@
 
-def fizzbuzz(int)
+def fizzbuzz(int=30)
   if int%3==0 && int%5==0
     "FizzBuzz"
   elsif int%5==0
     "Buzz"
-  else int%3==0
+  elsif int%3==0
     "Fizz"
   end
 end
 
-fizzbuzz(30)
+fizzbuzz
