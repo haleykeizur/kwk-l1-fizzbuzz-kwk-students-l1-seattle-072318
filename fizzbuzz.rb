@@ -1,10 +1,10 @@
 x=34
-
-if x/15
-  puts "Fizz"
-elsif x/5
-  puts "Buzz"
-else x/3
+ 
+if int%15==0
   puts "FizzBuzz"
+elsif int%5==0
+  puts "Buzz"
+else int%3==0
+  puts "Fizz"
 end
 
