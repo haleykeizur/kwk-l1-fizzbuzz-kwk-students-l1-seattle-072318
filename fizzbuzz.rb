@@ -1,4 +1,4 @@
-x=33
+int=33
  
 if int%15==0
   puts "FizzBuzz"
