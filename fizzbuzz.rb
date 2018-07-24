@@ -6,7 +6,7 @@ elsif x/5
   puts "Buzz"
 else x/3
   puts "FizzBuzz"
-else 
+elsif 
   puts "nil"
 end
 
